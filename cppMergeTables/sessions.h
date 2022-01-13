@@ -1,7 +1,8 @@
 #ifndef SESSIONS_H
 #define SESSIONS_H
 
-#include <cstring>
+#include <string>
+#include <vector>
 
 class Session {
 	public:

@@ -1,8 +1,8 @@
 #ifndef USERS_H
 #define USERS_H
 
-#include <cstring>
-#include <Vector>
+#include <string>
+#include <vector>
 
 class User {
 	public:
@@ -10,17 +10,17 @@ class User {
 	std::string name;
 	std::string city;
 	std::string street;
-	
+
 	User (int usid, std::string n, std::string c, std::string s);
 };
 
 class Users {
 	public:
 	std::vector<User> users;
-	
+
 	void load(std::string filename);
-	
-	
+	void printToFile(std::string file);
+
 };
 
 
